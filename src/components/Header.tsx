@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { headerItems, userInfo } from "@/constants/constant";
 import { BiMenu } from 'react-icons/bi';
-import Link from 'next/link';
 import { NavItems } from "@/models/Header";
 import { Link as ScrollLink } from 'react-scroll';
 
@@ -12,6 +11,7 @@ interface IHeaderProps {
 }
 
 const Header: React.FC<IHeaderProps> = ({ isDesktop }) => {
+    console.log("isDesktop", isDesktop);
     const [navItem, showNavItem] = useState<boolean>(false);
 
     return (

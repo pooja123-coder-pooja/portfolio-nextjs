@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
             <h1 className="text-6xl my-6">Projects</h1>
             <div className="flex break-words flex-wrap text-center justify-center items-center">
                 {
-                    Object.keys(projects).map((project, index) => (
+                    Object.keys(projects).map((project) => (
                         <Image 
                             key={project}  // Add unique key here
                             src={projects[project as keyof Projects].image} 

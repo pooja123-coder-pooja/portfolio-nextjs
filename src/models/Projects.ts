@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 interface Projects {
     gmail: object,
     flipkart: object,

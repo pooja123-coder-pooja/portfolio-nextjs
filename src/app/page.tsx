@@ -4,7 +4,7 @@ import Header from "@/components/Header"
 import Main from "@/pages/Main"
 
 export default function Home() {
-  const [isDesktop, setIsDesktop] = useState<boolean>(true);
+  const [isDesktop] = useState<boolean>(true);
 
   return (
     <>
